@@ -24,7 +24,7 @@ export default function Header() {
                 <nav className="flex gap-2">
                     <Option to="/" name="Home" />
                     <Option to="/products" name="Products" />
-                    <Option to="/serevices" name="Services" />
+                    <Option to="/services" name="Services" />
                     <Option to="/about" name="About" />
                     <Option to="/contact" name="Contact" />
                 </nav>

@@ -68,9 +68,13 @@ export default function Footer() {
                     </div>
                     <div className="flex gap-4 opacity-50 text-sm ">
                         <Item to="/" text="Home" />
-                        <Link to="/">Home</Link>
+                        <Item to="/" text="Products" />
+                        <Item to="/products" text="Services" />
+                        <Item to="/services" text="About" />
+                        <Item to="/about" text="Contact" />
+                        <Link to="/contact">Home</Link>
                         <Link to="/products">Products</Link>
-                        <Link to="/serevices">Services</Link>
+                        <Link to="/services">Services</Link>
                         <Link to="/about">About</Link>
                         <Link to="/contact">Contact</Link>
                     </div>
