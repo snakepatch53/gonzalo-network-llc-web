@@ -66,17 +66,12 @@ export default function Footer() {
                             </a>
                         </h3>
                     </div>
-                    <div className="flex gap-4 opacity-50 text-sm ">
+                    <div className="flex gap-2 opacity-50 text-sm ">
                         <Item to="/" text="Home" />
-                        <Item to="/" text="Products" />
-                        <Item to="/" text="Services" />
-                        <Item to="/" text="About" />
-                        <Item to="/about" text="Contact" />
-                        <Link to="/contact">Home</Link>
-                        <Link to="/products">Products</Link>
-                        <Link to="/serevices">Services</Link>
-                        <Link to="/about">About</Link>
-                        <Link to="/contact">Contact</Link>
+                        <Item to="/products" text="Products" />
+                        <Item to="/services" text="Services" />
+                        <Item to="/about" text="About" />
+                        <Item to="/contact" text="Contact" />
                     </div>
                     <span className="opacity-70">Copyright 2024 © Gonzalo Network LLC</span>
                 </div>
@@ -87,7 +82,7 @@ export default function Footer() {
 
 function Item({ to, text }) {
     return (
-        <Link to={to} className="hover:underline">
+        <Link to={to} className="hover:underline ">
             {text}
         </Link>
     );
