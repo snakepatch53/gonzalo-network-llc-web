@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "name": "T-Shirts",
+        "price": "19.00",
+        "src": "https://www.oxiumprint.com/wp-content/uploads/2021/06/White-Front-1-1000x1023.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Wooden Keychain",
+        "price": "5.00",
+        "src": "https://www.oxiumprint.com/wp-content/uploads/2020/04/IMG_7431-450x450.jpg"
+    },
+    {
+        "id": 3,
+        "name": "CARBONLESS FORMS",
+        "price": "12.00",
+        "src": "https://www.oxiumprint.com/wp-content/uploads/2019/06/Carbonless-Forms.jpg"
+    },
+    {
+        "id": 4,
+        "name": "POCKED FOLDERS",
+        "price": "9.00",
+        "src": "https://www.oxiumprint.com/wp-content/uploads/2019/06/presentationfolders-450x450.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Roll Labels",
+        "price": "20.00",
+        "src": "https://www.oxiumprint.com/wp-content/uploads/2019/06/Roll-Labels.jpg"
+    },
+    {
+        "id": 6,
+        "name": "POSTERS // 100 LB",
+        "price": "18.50",
+        "src": "https://www.oxiumprint.com/wp-content/uploads/2019/06/Mounted-Posters.jpg"
+    },
+    {
+        "id": 7,
+        "name": "POSTERS // 14 PT",
+        "price": "20.50",
+        "src": "https://www.oxiumprint.com/wp-content/uploads/2019/06/Mounted-Posters.jpg"
+    },
+    {
+        "id": 8,
+        "name": "BROCHURES/MENUS",
+        "price": "25.00",
+        "src": "https://www.oxiumprint.com/wp-content/uploads/2019/06/Menus_Brochure.jpg"
+    }
+]

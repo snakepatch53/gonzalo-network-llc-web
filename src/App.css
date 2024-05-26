@@ -1,0 +1,43 @@
+:root {
+    --max-w: 1200px;
+    --pdd: 50px;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+    :root {
+        --pdd: 20px;
+    }
+}
+
+@media (max-width: 576px) {
+    :root {
+        --pdd: 10px;
+    }
+}
+
+/* _____________ SCROLL _ STYLES ________________ */
+.scroll-style {
+    scroll-behavior: smooth;
+}
+.scroll-style::-webkit-scrollbar {
+    width: 7px;
+    height: 5px;
+}
+
+.scroll-style::-webkit-scrollbar-thumb {
+    background: var(--c2);
+    border-radius: 4px;
+}
+
+.scroll-style::-webkit-scrollbar-thumb:hover {
+    background: var(--c2);
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.scroll-style::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0);
+}
